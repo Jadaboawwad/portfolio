@@ -128,7 +128,7 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jad Abu Awwad{" "}
+                      Jehad Abu Awwad{" "}
                       <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
