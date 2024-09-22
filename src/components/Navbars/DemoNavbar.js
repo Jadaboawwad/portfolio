@@ -185,7 +185,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className='nav-link-icon'
-                      href='https://www.facebook.com/jadabuawwad/'
+                      href='https://www.facebook.com/jehadabuawwad/'
                       id='tooltip333589074'
                       target='_blank'
                     >
@@ -201,7 +201,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className='nav-link-icon'
-                      href='https://www.instagram.com/jad.abuawwad/'
+                      href='https://www.instagram.com/jehadabuawwad/'
                       id='tooltip356693867'
                       target='_blank'
                     >
@@ -217,7 +217,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className='nav-link-icon'
-                      href='https://twitter.com/jadaboawwad'
+                      href='https://x.com/jehadabuawwad'
                       id='tooltip184698705'
                       target='_blank'
                     >
@@ -227,7 +227,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target='tooltip184698705'>
-                      Follow us on Twitter
+                      Follow us on X
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
