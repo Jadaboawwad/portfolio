@@ -891,7 +891,7 @@ class Landing extends React.Component {
                         Back End
                       </Button>
                     </a>
-                    <a target="_blank" href="https://ai-medica.vercel.app/">
+                    <a target="_blank" href="https://we-medica.vercel.app/">
                       <Button className="mt-4" color="success">
                         Live
                       </Button>
