@@ -49,18 +49,8 @@ class Profile extends React.Component {
             </div>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+                <polygon className="fill-white" points="2560 0 2560 100 0 100" />
               </svg>
             </div>
           </section>
@@ -71,55 +61,41 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          <img
-                            alt="..."
-                            className="rounded-circle"
-                            src={profile}
-                          />
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <img alt="..." className="rounded-circle" src={profile} />
                         </a>
                       </div>
                     </Col>
-                    <Col
-                      className="order-lg-3 text-lg-right align-self-lg-center"
-                      lg="4"
-                    >
+                    <Col className="order-lg-3 text-lg-right align-self-lg-center" lg="4">
                       <div className="card-profile-actions py-4 mt-9">
-                        <Button
-                          className="mr-5"
-                          color="info"
-                          href="https://www.linkedin.com/in/jadabuawwad/"
-                          target="_blank"
-                          size="md"
-                        >
+                        <Button className="mr-5" color="info" href="https://www.linkedin.com/in/jadabuawwad/" target="_blank" size="md">
                           Connect In Linkedin
                         </Button>
 
                         <Button
                           className="mr-4 mt-3"
                           color="info"
-                          href='https://drive.google.com/file/d/1G_DBOb2KL691nPgVD5Xg1r57J2cIEHbQ/view?usp=sharing'
+                          href="https://drive.google.com/file/d/1G_DBOb2KL691nPgVD5Xg1r57J2cIEHbQ/view?usp=sharing"
                           target="_blank"
                           size="md"
                         >
                           Check My Curriculum Vitae
                         </Button>
-
                       </div>
                     </Col>
 
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">12</span>
+                          <span className="heading">21</span>
                           <span className="description">Certificates</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">13</span>
                           <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">50</span>
+                          <span className="heading">78</span>
                           <span className="description">Skills 💓</span>
                         </div>
                       </div>
@@ -127,8 +103,7 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jehad Abu Awwad{" "}
-                      <span className="font-weight-light">, 26</span>
+                      Jehad Abu Awwad <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -147,21 +122,17 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Experienced Mechatronics Engineer with a demonstrated history of working in AI and Software development.
-
-                          In Software Implementations I am skilled in Python with its applications in Artificial Intelligence, Machine Learning, Deep Learning and Reinforcement Learning.
-
-                          also I am skilled in JavaScript & TypeScript with its applications Software Development fields
-
-                          In the Hardware Implementations I am skilled in Engineering, Power Electronics , Electrical Drive, Programmable logic controllers and Industrial Electronics.
-
-                          Strong Engineering Skills with a Diploma of Industrial Electronics Engineering from Wadi Al-Seer Training Collage and Bachelor's of Mechatronics Engineering from Al Balqa Applied University
-
-                          Certified in Machine Learning with American Canadian board for professional training and Software Development from LTUC-Abdul Aziz Al Ghurair School of Advanced Computing with Code fellows program.
-
-                          My name meaning is a personal devotion at routine discipline which leads to be the person who loves to live in peace with completing all tasks at the end of that day ❤️
+                          Experienced Mechatronics Engineer with a strong background in both AI and software development. I have hands-on experience in implementing advanced
+                          technologies using Python, with a focus on Artificial Intelligence, Machine Learning, Deep Learning, and Reinforcement Learning. On the software side, I
+                          am also skilled in JavaScript and TypeScript, applying them in various software development projects. In terms of hardware implementation, I bring solid
+                          expertise in Engineering, Power Electronics, Electrical Drives, Programmable Logic Controllers (PLCs), and Industrial Electronics. I hold a Diploma in
+                          Industrial Electronics Engineering from Wadi Al-Seer Training College, and a Bachelor's in Mechatronics Engineering from Al-Balqa Applied University. I am
+                          certified in Machine Learning from the American Canadian Board for Professional Training, and in Software Development through the LTUC - Abdul Aziz Al
+                          Ghurair School of Advanced Computing (Code Fellows Program). I completed the Semiconductor Fundamentals Program organized by Princess Sumaya University
+                          for Technology (PSUT) and Synopsys, where I earned 10 Purple Certificates across key areas such as CMOS, VLSI and Digital Design further strengthening my
+                          knowledge in digital design and semiconductor engineering. My name reflects a personal devotion to disciplined routines, always striving to complete tasks
+                          with focus and peace by the end of each day ❤️
                         </p>
-                      
                       </Col>
                     </Row>
                   </div>
