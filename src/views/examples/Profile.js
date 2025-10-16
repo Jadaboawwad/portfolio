@@ -75,7 +75,7 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4 mt-3"
                           color="info"
-                          href="https://drive.google.com/file/d/1G_DBOb2KL691nPgVD5Xg1r57J2cIEHbQ/view?usp=sharing"
+                          href="https://drive.google.com/file/d/1rPgJzqRG_WPK88mK4jbskuYKMscXGC_x/view?usp=sharing"
                           target="_blank"
                           size="md"
                         >
